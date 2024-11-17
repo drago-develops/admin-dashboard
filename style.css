@@ -16,7 +16,25 @@
 .sidebar{
     background-color: lightblue;
     grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-content: center;
 }
+.sidebar>p{
+    display: flex;
+    flex-direction: column;
+    margin: 3em 0px 1em 0px;
+    flex-grow: 1;
+}
+.SB-option{
+    margin-top: 1em;
+    border: none;
+    background-color: transparent;
+    color: cornflowerblue;
+    font-weight: bold;
+}
+
 .header{
     background-color: lightgray;
     grid-area: header;
