@@ -18,8 +18,10 @@
     grid-area: sidebar;
     display: flex;
     flex-direction: column;
-    color: white;
+    flex-wrap: wrap;
     align-content: center;
+    color: white;
+    padding-top: 1em;
 }
 .sidebar>p{
     display: flex;
@@ -29,10 +31,10 @@
 }
 .SB-option{
     margin-top: 1em;
-    border: none;
     background-color: transparent;
     color: cornflowerblue;
     font-weight: bold;
+    text-decoration: none;
 }
 
 .header{
