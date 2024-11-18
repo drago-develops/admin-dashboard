@@ -31,10 +31,18 @@
 }
 .SB-option{
     margin-top: 1em;
-    background-color: transparent;
     color: cornflowerblue;
     font-weight: bold;
     text-decoration: none;
+}
+.icon-option{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+.icon-option>img{
+    height: 1.5em;
+    width: 1.5em;
 }
 
 .header{
