@@ -29,11 +29,17 @@
     margin: 3em 0px 1em 0px;
     flex-grow: 1;
 }
-.SB-option{
+a{
     margin-top: 1em;
     color: cornflowerblue;
     font-weight: bold;
     text-decoration: none;
+    transition: all 0.5s ease-out;
+}
+a:hover {
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: white;
 }
 .icon-option{
     display: flex;
