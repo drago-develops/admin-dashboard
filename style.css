@@ -43,6 +43,8 @@
 .icon-option>img{
     height: 1.5em;
     width: 1.5em;
+    margin-right: 5px;
+    filter: invert(50%) sepia(94%) saturate(724%) hue-rotate(195deg) brightness(97%) contrast(91%);
 }
 
 .header{
