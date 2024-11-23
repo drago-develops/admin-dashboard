@@ -42,13 +42,16 @@ a:hover {
     border-radius: 5px;
     color: white;
 }
+.icons a:hover{
+    background-color: transparent;
+}
 .icon-option{
     display: flex;
     flex-direction: row;
     align-items: end;
 }
 .icon-option>img,
-.icons>img{
+.icons img{
     height: 1.5em;
     width: 1.5em;
     margin-right: 5px;
