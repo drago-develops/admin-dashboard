@@ -47,12 +47,14 @@ a:hover {
     flex-direction: row;
     align-items: end;
 }
-.icon-option>img{
+.icon-option>img,
+.icons>img{
     height: 1.5em;
     width: 1.5em;
     margin-right: 5px;
     filter: invert(50%) sepia(94%) saturate(724%) hue-rotate(195deg) brightness(97%) contrast(91%);
 }
+
 
 .header{
     background-color: lightgray;
@@ -92,6 +94,7 @@ a:hover {
     margin: 25px;
     height: min(200px, 100%);
     width: 95%;
+
 }
 .announcements{
     background-color: aquamarine;
