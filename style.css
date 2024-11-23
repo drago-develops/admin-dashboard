@@ -54,6 +54,9 @@ a:hover {
     margin-right: 5px;
     filter: invert(50%) sepia(94%) saturate(724%) hue-rotate(195deg) brightness(97%) contrast(91%);
 }
+div.icons{
+    align-self: end;
+}
 
 
 .header{
@@ -94,7 +97,9 @@ a:hover {
     margin: 25px;
     height: min(200px, 100%);
     width: 95%;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 .announcements{
     background-color: aquamarine;
