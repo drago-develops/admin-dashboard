@@ -82,6 +82,8 @@ div.icons{
     background-color: aquamarine;
     border-radius: 15px;
     grid-area: projects;
+    width: min(1000px);
+    height: min(800px);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 30px;
@@ -98,8 +100,8 @@ div.icons{
     border-radius: 15px;
     padding: 5px;
     margin: 25px;
-    height: min(200px, 100%);
-    width: 95%;
+    height: max(40%, 200px);
+    width: max(90%, 200px);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
