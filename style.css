@@ -115,6 +115,10 @@ div.icons{
     flex-flow: column;
     align-content: center;
 }
+.announcements>h3{
+    border-top: solid 1px black;
+    padding-top: 5px;
+}
 .trending{
     background-color: aquamarine;
     border-radius: 15px;
