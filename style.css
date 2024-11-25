@@ -110,7 +110,11 @@ div.icons{
 .announcements{
     background-color: aquamarine;
     border-radius: 15px;
+    padding: 5px;
     grid-area: announcements;
+    display: flex;
+    flex-flow: column;
+    align-content: center;
 }
 .trending{
     background-color: aquamarine;
