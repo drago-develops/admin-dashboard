@@ -16,12 +16,13 @@
 .sidebar{
     background-color: lightblue;
     grid-area: sidebar;
+    padding: 1em 10px 10px 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     color: white;
-    padding-top: 1em;
+    /* padding-top: 1em; */
 }
 .sidebar>p{
     display: flex;
