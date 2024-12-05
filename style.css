@@ -121,6 +121,28 @@ div.icons{
     background-color: aquamarine;
     border-radius: 15px;
     grid-area: trending;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.trending-entry img{
+    height: 3em;
+    width: 3em;
+    grid-area: user-image;
+}
+.trending-entry{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:  
+    "user-image TagName"
+    "user-image desc";
+}
+.trending-entry h4{
+    grid-area: TagName;
+}
+.trending-entry p{
+    grid-area: desc;
 }
 .footer{
     background-color: gray;
