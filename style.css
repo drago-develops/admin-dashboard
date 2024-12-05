@@ -4,14 +4,15 @@
 }
 
 .container{
+    overflow: auto;
     display: grid;
     grid-template-columns: 1fr 4fr;
     grid-template-rows: minmax(50px, 6em) calc(100vh - 130px) 30px;
     gap: 1px;
-    grid-template-areas: 
+    grid-template-areas:
     "sidebar header"
     "sidebar main"
-    "footer footer"; 
+    "footer footer";
 }
 .sidebar{
     background-color: lightblue;
@@ -82,12 +83,9 @@ div.icons{
     background-color: aquamarine;
     border-radius: 15px;
     grid-area: projects;
-    width: min(1000px);
-    height: min(800px);
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30px;
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 5px;
     padding: 5px;
     justify-items: center;
 }
@@ -100,10 +98,10 @@ div.icons{
     border-radius: 15px;
     padding: 5px;
     margin: 25px;
-    height: max(40%, 200px);
-    width: max(90%, 200px);
+    width: 80%;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 .announcements{
