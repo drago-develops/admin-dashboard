@@ -85,7 +85,17 @@ div.icons{
     grid-area: img;
 }
 .search-bar{
+    padding: 2px;
     grid-area: search;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: nowrap;  
+}
+.search-bar input{
+    border-radius: 15px;
+    width: min(90%, 1000px);
+    border: none;
+    background-color: rgb(240, 240, 240);
 }
 .profile{
     grid-area: profile;
