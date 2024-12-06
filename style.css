@@ -1,3 +1,15 @@
+@font-face {
+    font-family: "Winter-Lemon";
+    src: 
+        url(fonts/winter_lemon-webfont.woff2) format("woff2"),
+        url(fonts/winter_lemon-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal;  
+}
+h1{
+    font-family: "Winter-Lemon", serif;
+}
+
 * {
     margin: 0;
     padding: 0;
