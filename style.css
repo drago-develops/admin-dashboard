@@ -38,7 +38,7 @@ a{
     text-decoration: none;
     transition: all 0.5s ease-out;
 }
-a:hover {
+a:hover{
     background-color: cornflowerblue;
     border-radius: 5px;
     color: white;
@@ -120,6 +120,27 @@ div.icons{
 }
 .cont-button{
     grid-area: buttons;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.cont-button button{
+    padding: 5px;
+    background-color: lightcyan;
+    border-radius: 15px;
+    border: none;
+    width: 100px;
+    font-weight: bold;
+}
+
+.cont-button>*{
+    margin-right: 5px;
+}
+.cont-button button:hover{
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .main-content{
