@@ -102,6 +102,10 @@ div.icons{
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
+    align-items: center;
+}
+.profile>*{
+    padding: 5px;
 }
 .user-info{
    grid-area: user-info;
