@@ -5,6 +5,12 @@
         url(fonts/winter_lemon-webfont.woff) format("woff");
     font-weight: normal;
     font-style: normal;  
+    font-family: "Caviar-Dreams";
+    src: 
+        url(fonts/caviar_dreams/caviardreams-webfont.woff2) format("woff2"),
+        url(fonts/caviar_dreams/caviardreams-webfont.woff) format("woff");
+    font-weight: normal;
+    font-style: normal; 
 }
 h1{
     font-family: "Winter-Lemon", serif;
@@ -14,6 +20,7 @@ h1{
 * {
     margin: 0;
     padding: 0;
+    font-family: Caviar-Dreams, sans-serif;
 }
 
 .container{
