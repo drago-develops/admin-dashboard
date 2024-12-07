@@ -249,4 +249,19 @@ div.icons{
 .footer{
     background-color: gray;
     grid-area: footer;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    padding: 3px;
+}
+.footer>a{
+    margin-top: 0px;
+    padding: 1px;
+    font-family: "Caviar-Dreams";
+    color: black;
+}
+.footer>a:first-child{
+    font-family: "Winter-Lemon";
+    font-weight: lighter;
+    color: black;    
 }
