@@ -260,8 +260,13 @@ div.icons{
     font-family: "Caviar-Dreams";
     color: black;
 }
-.footer>a:first-child{
+.footer>a:nth-child(2){
     font-family: "Winter-Lemon";
     font-weight: lighter;
     color: black;    
+}
+.footer img{
+    height: 20px;
+    width: 20px;
+    padding-right: 5px;
 }
